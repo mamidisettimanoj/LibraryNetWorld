@@ -1,0 +1,24 @@
+# IDE
+.idea/
+.vscode/
+.settings/
+.project
+.classpath
+*.iml
+
+# Java
+backend/target/
+*.class
+
+# React
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Environment and logs
+.env
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

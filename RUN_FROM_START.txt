@@ -1,0 +1,28 @@
+LIBRARYNET FULL-STACK - RUN FROM START (WINDOWS)
+
+1. Install/open PostgreSQL and create database: librarynet
+   Default username: postgres
+   Default password expected by project: postgres
+
+   OR run:
+   start-database.bat
+
+2. Start backend:
+   start-backend.bat
+
+3. Start frontend in another terminal:
+   start-frontend.bat
+
+4. Open:
+   http://localhost:5173
+
+5. Verify backend:
+   http://localhost:8080/api/health
+
+Spring Tools import:
+File -> Import -> Maven -> Existing Maven Projects -> select backend folder.
+
+React terminal:
+cd frontend
+npm install
+npm run dev

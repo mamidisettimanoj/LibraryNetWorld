@@ -1,0 +1,18 @@
+{
+  "info": {
+    "name": "LibraryNet Full-Stack API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [{ "key": "baseUrl", "value": "http://localhost:8080/api" }],
+  "item": [
+    { "name": "Health", "request": { "method": "GET", "url": "{{baseUrl}}/health" } },
+    { "name": "Dashboard", "request": { "method": "GET", "url": "{{baseUrl}}/analytics/dashboard" } },
+    { "name": "List Books", "request": { "method": "GET", "url": "{{baseUrl}}/books" } },
+    { "name": "Search Books", "request": { "method": "GET", "url": "{{baseUrl}}/books?q=AI" } },
+    { "name": "List Members", "request": { "method": "GET", "url": "{{baseUrl}}/members" } },
+    { "name": "List Loans", "request": { "method": "GET", "url": "{{baseUrl}}/loans" } },
+    { "name": "BST vs AVL", "request": { "method": "GET", "url": "{{baseUrl}}/algorithms/tree-comparison/5" } },
+    { "name": "Dijkstra", "request": { "method": "GET", "url": "{{baseUrl}}/algorithms/shortest-path?source=0&target=11" } },
+    { "name": "Reset Sample Data", "request": { "method": "POST", "url": "{{baseUrl}}/admin/reset-sample-data" } }
+  ]
+}
